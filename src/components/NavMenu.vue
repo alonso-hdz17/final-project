@@ -3,7 +3,7 @@
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/">Services</RouterLink>
     <RouterLink to="/">Contact Us</RouterLink>
-    <RouterLink to="/">Login</RouterLink>
+    <RouterLink to="/login">Login</RouterLink>
   </nav>
 </template>
 

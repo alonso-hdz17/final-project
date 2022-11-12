@@ -26,7 +26,7 @@ const logUserIn = async () => {
   <form class="login-form" @submit.prevent="logUserIn">
     <input v-model="username" type="text" placeholder="Username" />
     <input v-model="password" type="password" placeholder="Password" />
-    <button type="submit" class="bg-blue-500 px-4 py-2">Log In</button>
+    <button type="submit" class="bg-white px-4 py-2">Log In</button>
   </form>
 </template>
 
