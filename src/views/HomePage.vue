@@ -12,6 +12,6 @@ const title = ref('Hernandez Car Care')
 
 <style lang="postcss" scoped>
 .image {
-  @apply mx-auto bg-slate-700 px-4 py-14 shadow-slate-900 drop-shadow-lg;
+  @apply mx-auto px-4 py-14 shadow-slate-900 drop-shadow-lg;
 }
 </style>
