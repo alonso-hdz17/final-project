@@ -10,7 +10,7 @@
 
   <div class="container">
     <div class="wrapper">
-      <div class="card-image"><img src="ceramic.jpg" /></div>
+      <div class="card-image"><img src="/public/ceramic.jpg" /></div>
       <h1 class="card-title">Premium Package</h1>
       <p class="card-description">
         The premium package is our top of the line detailing package that will leave your vehicle looking like new!
