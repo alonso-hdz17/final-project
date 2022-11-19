@@ -9,7 +9,7 @@
 
 <style lang="postcss" scoped>
 nav {
-  @apply flex items-end justify-end space-x-4 px-5 py-9 font-semibold text-slate-300;
+  @apply flex items-end justify-end space-x-4 px-5 py-4 font-semibold text-slate-300;
   .menu-item {
     @apply items-center justify-center;
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="title">
     <h1>Hernandez Detailing Services<br /></h1>
   </div>
   <div class="message">
@@ -7,31 +7,40 @@
     We offer all kinds of services like a simple wash-vac, interior & exterior detail, paint correction, ceramic coating
     and more.
   </div>
-  <div class="title"><h3>Premium Package</h3></div>
-  <img class="ceramic" img src="ceramic.jpg" />
-  <div class="description">
-    The premium package is our top of the line detailing package that will leave your vehicle looking like new!
+
+  <div class="container">
+    <div class="wrapper">
+      <div class="card-image"><img src="ceramic.jpg" /></div>
+      <h1 class="card-title">Premium Package</h1>
+      <p class="card-description">
+        The premium package is our top of the line detailing package that will leave your vehicle looking like new!
+      </p>
+    </div>
   </div>
-  <div class="message"></div>
 </template>
 
 <style lang="postcss" scoped>
-.wrapper {
+.title {
   @apply flex items-center justify-center text-6xl font-bold text-slate-300;
 }
-.symbol {
-  @apply flex items-center justify-center py-5;
-}
+
 .message {
-  @apply flex items-center justify-center py-7 text-lg  font-semibold text-slate-400;
+  @apply flex items-center justify-center py-9 text-lg  font-semibold text-slate-400;
 }
-.title {
-  @apply flex  items-center  justify-center py-6 text-3xl font-semibold text-slate-300;
+
+.container {
+  @apply flex h-1/2 w-2/6 cursor-pointer items-start justify-center rounded-md bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600 p-5 text-center drop-shadow-lg transition-transform duration-300 hover:scale-100 hover:shadow-xl;
 }
-.ceramic {
-  @apply mx-auto h-64;
+.wrapper {
+  @apply h-4/6 w-3/4;
 }
-.description {
-  @apply flex items-center justify-center py-3 font-semibold text-slate-300;
+.card-image {
+  @apply mx-auto h-full w-10/12 rounded-lg;
+}
+.card-title {
+  @apply font-sans text-xl font-bold uppercase;
+}
+.card-description {
+  @apply text-base font-medium;
 }
 </style>
