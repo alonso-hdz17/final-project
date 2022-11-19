@@ -8,15 +8,39 @@
     and more.
   </div>
 
-  <div class="container">
-    <div class="wrapper">
-      <div class="card-image"><img src="/public/ceramic.jpg" /></div>
-      <h1 class="card-title">Premium Package</h1>
-      <p class="card-description">
-        The premium package is our top of the line detailing package that will leave your vehicle looking like new!
-      </p>
+  <section class="cards">
+    <div class="card">
+      <div class="card-content">
+        <img class="card-image" img src="/public/ceramic.jpg" />
+        <h1 class="card-title">Premium Detailing Package</h1>
+        <p class="card-description">
+          The Premium Detailing Package is our top of the line detailing package that will leave your vehicle looking
+          like new! This package includes an interior/exterior detail, carpet extraction, paint correction, and ceramic
+          coating.
+        </p>
+      </div>
     </div>
-  </div>
+    <div class="card">
+      <div class="card-content">
+        <img class="card-image" img src="/public/interior.jpg" />
+        <h1 class="card-title">Starter Detailing Package</h1>
+        <p class="card-description">
+          The Starter Detailing Package is our most popular service amongst our customers. This package includes an
+          interior and exterior detail of your vehicle.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <img class="card-image" img src="/public/polish.jpg" />
+        <h1 class="card-title">Deluxe Detailing Package</h1>
+        <p class="card-description">
+          The deluxe detailing package includes everything from our Starter package but it also includes a paint
+          correction of your vehicle.
+        </p>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="postcss" scoped>
@@ -28,17 +52,17 @@
   @apply flex items-center justify-center py-9 text-lg  font-semibold text-slate-400;
 }
 
-.container {
-  @apply flex h-1/2 w-2/6 cursor-pointer items-start justify-center rounded-md bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600 p-5 text-center drop-shadow-lg transition-transform duration-300 hover:scale-100 hover:shadow-xl;
+.cards {
+  @apply mx-auto grid h-3/5 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-3;
 }
-.wrapper {
-  @apply h-4/6 w-3/4;
+.card {
+  @apply rounded-md bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600 p-5 text-center drop-shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-xl;
 }
 .card-image {
   @apply mx-auto h-full w-10/12 rounded-lg;
 }
 .card-title {
-  @apply font-sans text-xl font-bold uppercase;
+  @apply py-2 font-sans text-xl font-bold uppercase;
 }
 .card-description {
   @apply text-base font-medium;
