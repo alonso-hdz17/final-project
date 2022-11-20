@@ -12,7 +12,7 @@
     <div class="card">
       <div class="card-content">
         <img class="card-image" img src="/public/ceramic.jpg" />
-        <h1 class="card-title">Premium Detailing Package</h1>
+        <h1 class="card-title">Gold Detailing Package</h1>
         <p class="card-description">
           The Premium Detailing Package is our top of the line detailing package that will leave your vehicle looking
           like new! This package includes an interior/exterior detail, carpet extraction, paint correction, and ceramic
@@ -23,7 +23,7 @@
     <div class="card">
       <div class="card-content">
         <img class="card-image" img src="/public/interior.jpg" />
-        <h1 class="card-title">Starter Detailing Package</h1>
+        <h1 class="card-title">Bronze Detailing Package</h1>
         <p class="card-description">
           The Starter Detailing Package is our most popular service amongst our customers. This package includes an
           interior and exterior detail of your vehicle.
@@ -33,10 +33,11 @@
     <div class="card">
       <div class="card-content">
         <img class="card-image" img src="/public/polish.jpg" />
-        <h1 class="card-title">Deluxe Detailing Package</h1>
+        <h1 class="card-title">Silver Detailing Package</h1>
         <p class="card-description">
-          The deluxe detailing package includes everything from our Starter package but it also includes a paint
-          correction of your vehicle.
+          The Deluxe Detailing Package includes paint correction and scratch removal of your vehicle's paint. You have
+          the option to choose between a One-Step or Two-Step paint correction (depending on the condition of your
+          vehicle.)
         </p>
       </div>
     </div>

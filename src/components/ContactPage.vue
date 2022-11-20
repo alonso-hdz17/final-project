@@ -2,6 +2,12 @@
   <div class="wrapper">
     <h1>Contact Us!</h1>
   </div>
+  <div class="message">
+    <p>
+      If you have any questions about pricing or would like to book an appointment. Feel free to contact us. Below is
+      our phone number, email address, and hours of operation.
+    </p>
+  </div>
   <section class="cards">
     <div class="card">
       <div class="card-content">
@@ -33,8 +39,11 @@
 .wrapper {
   @apply text-center text-6xl font-bold text-white;
 }
+.message {
+  @apply py-2 text-center text-base font-medium italic text-white;
+}
 .cards {
-  @apply mx-auto grid h-3/4 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-40;
+  @apply mx-auto grid h-3/4 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-28;
 }
 .logo {
   @apply mx-auto h-1/2 w-1/2;
