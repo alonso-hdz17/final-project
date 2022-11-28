@@ -5,7 +5,7 @@
   <div class="message">
     At Hernandez Car Care we take pride in our work and always looks to provide the best service for their customers.<br />
     We offer all kinds of services like a simple wash-vac, interior & exterior detail, paint correction, ceramic coating
-    and more.
+    and more.<br />All of our prices are based on the condition of the vehicle.
   </div>
 
   <section class="cards">
@@ -25,8 +25,9 @@
         <img class="card-image" img src="/public/interior.jpg" />
         <h1 class="card-title">Bronze Detailing Package</h1>
         <p class="card-description">
-          The Starter Detailing Package is our most popular service amongst our customers. This package includes an
-          interior and exterior detail of your vehicle.
+          The Bronze Detailing Package is our most popular service amongst our customers. This package includes a full
+          exterior detail of your vehicle. This includes a full hand wash of all exterior surfaces topped off with a
+          paint sealant or wax.
         </p>
       </div>
     </div>
@@ -35,9 +36,9 @@
         <img class="card-image" img src="/public/polish.jpg" />
         <h1 class="card-title">Silver Detailing Package</h1>
         <p class="card-description">
-          The Deluxe Detailing Package includes paint correction and scratch removal of your vehicle's paint. You have
-          the option to choose between a One-Step or Two-Step paint correction (depending on the condition of your
-          vehicle.)
+          The Deluxe Detailing Package includes everything from the Bronze Package as well as a paint correction and
+          scratch removal of your vehicle's paint. You have the option to choose between a One-Step or Two-Step paint
+          correction (depending on the condition of your vehicle.)
         </p>
       </div>
     </div>
@@ -50,7 +51,7 @@
 }
 
 .message {
-  @apply flex items-center justify-center py-6 text-lg  font-semibold text-slate-400;
+  @apply flex items-center justify-center py-4 text-lg  font-semibold text-slate-400;
 }
 
 .cards {

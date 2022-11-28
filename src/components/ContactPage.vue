@@ -27,8 +27,8 @@
       <div class="card-content">
         <img class="logo" img src="/hours.svg" alt="logo" />
         <p class="category">Hours of Operation</p>
-        <h2>Mon-Sat: 7AM-7PM</h2>
-        <h2>Sunday: 8AM-6PM</h2>
+        <h2>Mon-Fri: 8AM-5PM</h2>
+        <h2>Sat-Sun: <b>Closed</b></h2>
       </div>
     </div>
   </section>
