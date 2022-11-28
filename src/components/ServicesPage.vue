@@ -50,11 +50,11 @@
 }
 
 .message {
-  @apply flex items-center justify-center py-9 text-lg  font-semibold text-slate-400;
+  @apply flex items-center justify-center py-6 text-lg  font-semibold text-slate-400;
 }
 
 .cards {
-  @apply mx-auto grid h-3/5 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-2;
+  @apply mx-auto grid h-1/2 w-4/5 auto-rows-auto grid-cols-3 gap-2;
 }
 .card {
   @apply rounded-md bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600 p-5 text-center drop-shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-xl;
