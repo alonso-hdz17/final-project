@@ -11,6 +11,6 @@ import NavMenu from '@/components/NavMenu.vue'
 
 <style lang="postcss" scoped>
 main {
-  @apply h-screen bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900;
+  @apply h-screen bg-cyan-400;
 }
 </style>
