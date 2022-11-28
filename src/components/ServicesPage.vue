@@ -46,7 +46,7 @@
 
 <style lang="postcss" scoped>
 .title {
-  @apply flex items-center justify-center text-6xl font-bold text-slate-300;
+  @apply flex items-center justify-center text-5xl font-bold text-slate-300;
 }
 
 .message {
@@ -54,7 +54,7 @@
 }
 
 .cards {
-  @apply mx-auto grid h-3/5 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-3;
+  @apply mx-auto grid h-3/5 w-3/4 auto-rows-auto grid-cols-3 gap-4 py-2;
 }
 .card {
   @apply rounded-md bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600 p-5 text-center drop-shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-xl;
