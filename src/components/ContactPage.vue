@@ -36,7 +36,7 @@
 
 <style lang="postcss" scoped>
 .wrapper {
-  @apply text-center text-6xl font-bold text-white;
+  @apply text-center text-3xl font-bold text-white;
 }
 .message {
   @apply py-2 text-center text-base font-medium italic text-white;

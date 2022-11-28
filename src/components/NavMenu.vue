@@ -12,7 +12,7 @@
 nav {
   @apply flex items-start justify-between space-x-2 px-5 py-4 text-slate-300;
   .title {
-    @apply text-2xl font-bold;
+    @apply text-3xl font-bold;
   }
   .menu-item {
     @apply items-end justify-end font-semibold;

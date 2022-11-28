@@ -3,9 +3,8 @@
     <h1>Hernandez Detailing Services<br /></h1>
   </div>
   <div class="message">
-    At Hernandez Car Care we take pride in our work and always looks to provide the best service for their customers.<br />
-    We offer all kinds of services like a simple wash-vac, interior & exterior detail, paint correction, ceramic coating
-    and more.<br />All of our prices are based on the condition of the vehicle.
+    At Hernandez Car Care we offer all kinds of services like a simple wash-vac, interior & exterior detail, paint
+    correction, ceramic coating and more.
   </div>
 
   <section class="cards">
@@ -47,21 +46,21 @@
 
 <style lang="postcss" scoped>
 .title {
-  @apply flex items-center justify-center text-5xl font-bold text-slate-300;
+  @apply flex items-center justify-center text-3xl font-bold text-slate-300;
 }
 
 .message {
-  @apply flex items-center justify-center py-4 text-lg  font-semibold text-slate-400;
+  @apply flex items-center justify-center py-3 text-base font-semibold text-slate-400;
 }
 
 .cards {
-  @apply mx-auto grid h-1/2 w-11/12 auto-rows-auto grid-cols-3 gap-2;
+  @apply mx-auto grid h-1/5 w-11/12 auto-rows-auto grid-cols-3 gap-2;
 }
 .card {
-  @apply rounded-md bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600 p-5 text-center drop-shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-xl;
+  @apply rounded-md bg-gradient-to-t from-gray-200 via-gray-400 to-gray-600 p-5 text-center drop-shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl;
 }
 .card-image {
-  @apply mx-auto h-full w-10/12 rounded-lg;
+  @apply mx-auto h-4/5 w-10/12 rounded-lg;
 }
 .card-title {
   @apply py-2 font-sans text-xl font-bold uppercase;
