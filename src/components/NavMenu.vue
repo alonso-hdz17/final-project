@@ -1,6 +1,15 @@
+<script setup>
+import { ref } from 'vue'
+const brand = ref(import.meta.env.VITE_APP_NAME)
+</script>
+
 <template>
   <nav>
-    <div class="title">Hernandez Car Care</div>
+    <div class="title">
+      <RouterLink :to="{ name: 'Home' }" class="brand">
+        <span class="brand-title">{{ brand }}</span>
+      </RouterLink>
+    </div>
     <div class="menu-item"><router-link :to="{ name: 'Home' }">Home</router-link></div>
     <div class="menu-item"><router-link :to="{ name: 'Services' }">Services</router-link></div>
     <div class="menu-item"><router-link :to="{ name: 'Contact' }">Contact</router-link></div>
