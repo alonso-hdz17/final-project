@@ -60,10 +60,10 @@ body {
   @apply h-14 w-full rounded-lg bg-transparent text-lg text-white;
 }
 
-.login-form submit {
-  @apply bg-transparent;
+.register {
+  @apply bg-transparent text-white underline;
 }
-.login-form button {
+.submit {
   @apply h-14 w-full cursor-pointer rounded-lg bg-white font-medium hover:bg-blue-500 hover:text-white hover:shadow-md hover:shadow-zinc-600;
 }
 </style>
