@@ -3,7 +3,7 @@
     <div class="card">
       <img class="card-img" src="/checkmark.png" />
       <h2 class="thanks">Thank you!</h2>
-      <p class="message">Thank you for booking an appointment with us!</p>
+      <p class="message">Thank you for booking an appointment with us! You will be contacted shortly.</p>
     </div>
   </div>
 </template>
